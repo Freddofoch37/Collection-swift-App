@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		02BC1EE62963C989007D8665 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BC1EE52963C989007D8665 /* AppDelegate.swift */; };
 		02BC1EE82963C989007D8665 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BC1EE72963C989007D8665 /* SceneDelegate.swift */; };
-		02BC1EEA2963C989007D8665 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BC1EE92963C989007D8665 /* ViewController.swift */; };
+		02BC1EEA2963C989007D8665 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BC1EE92963C989007D8665 /* TableViewController.swift */; };
 		02BC1EED2963C989007D8665 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02BC1EEB2963C989007D8665 /* Main.storyboard */; };
 		02BC1EEF2963C98B007D8665 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02BC1EEE2963C98B007D8665 /* Assets.xcassets */; };
 		02BC1EF22963C98B007D8665 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02BC1EF02963C98B007D8665 /* LaunchScreen.storyboard */; };
+		02BC1EFA2963D029007D8665 /* TableCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BC1EF92963D029007D8665 /* TableCellTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		02BC1EE22963C989007D8665 /* CollectionSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02BC1EE52963C989007D8665 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		02BC1EE72963C989007D8665 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		02BC1EE92963C989007D8665 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		02BC1EE92963C989007D8665 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		02BC1EEC2963C989007D8665 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		02BC1EEE2963C98B007D8665 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		02BC1EF12963C98B007D8665 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		02BC1EF32963C98B007D8665 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02BC1EF92963D029007D8665 /* TableCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCellTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			children = (
 				02BC1EE52963C989007D8665 /* AppDelegate.swift */,
 				02BC1EE72963C989007D8665 /* SceneDelegate.swift */,
-				02BC1EE92963C989007D8665 /* ViewController.swift */,
+				02BC1EE92963C989007D8665 /* TableViewController.swift */,
+				02BC1EF92963D029007D8665 /* TableCellTableViewCell.swift */,
 				02BC1EEB2963C989007D8665 /* Main.storyboard */,
 				02BC1EEE2963C98B007D8665 /* Assets.xcassets */,
 				02BC1EF02963C98B007D8665 /* LaunchScreen.storyboard */,
@@ -138,8 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02BC1EEA2963C989007D8665 /* ViewController.swift in Sources */,
+				02BC1EEA2963C989007D8665 /* TableViewController.swift in Sources */,
 				02BC1EE62963C989007D8665 /* AppDelegate.swift in Sources */,
+				02BC1EFA2963D029007D8665 /* TableCellTableViewCell.swift in Sources */,
 				02BC1EE82963C989007D8665 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
